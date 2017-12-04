@@ -42,9 +42,8 @@ try:
 
         # Version 4: This doesn't check the lights at all, it just tells them all to go to the right temp over and over. It is the fastest and second best performance, but it means that all bulbs will be set to the same hue.
         # for light in lights:
-        #     if light.colortemp == default_temp:
-        #         light.colortemp = ideal_temp
-        #         print('Fixing: ', light.light_id)
+        #     light.colortemp = ideal_temp
+
 
         time.sleep(1)  # Change this to whatever you like. Higher number improves performance but slows down the fixing
 except KeyboardInterrupt:
