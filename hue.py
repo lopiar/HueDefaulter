@@ -22,7 +22,7 @@ try:
         #     if light.colortemp == default_temp:
         #         lights_to_change.append(light)
         # if lights_to_change:
-        #     print('Fiding: ',lights_to_change)
+        #     print('Fixing: ',lights_to_change)
         #     for l in lights_to_change:
         #         l.colortemp = ideal_temp
 
